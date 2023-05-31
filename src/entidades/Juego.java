@@ -25,10 +25,8 @@ public class Juego {
                 if (jugador.getMojado()) {
                     break;
                 }
-                System.out.println("ARRANCAAAAAAAAAA");
                 System.out.println("Disparo " + cont);
                 System.out.println(jugador);
-                System.out.println("pRIMERO DESCHAVO PARA CONTROL" + revolver);
                 serviceJugadores.disparo(revolver, jugador);
                 if (jugador.getMojado()) {
                     System.out.println("MOJADO FIN");
